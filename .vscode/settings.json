@@ -1,0 +1,45 @@
+{
+  "eslint.enable": false,
+  "prettier.enable": false,
+  "cSpell.words": ["shadcn"],
+  "files.associations": {
+    "*.svg": "html",
+    "*.xml": "html",
+    "*.css": "tailwindcss"
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "*.lock": true,
+    "*.log": true,
+    "*.tsbuildinfo": true,
+    ".cache": true,
+    ".idea": true,
+    ".sentryclirc": true,
+    ".shopify": true,
+    ".yarn": true,
+    "build-storybook.log": true,
+    "bun.lockb": true,
+    "customer-accountapi.generated.d.ts": true,
+    "dist": true,
+    "package-lock.json": true,
+    "remix.env.d.ts": true,
+    "reset.d.ts": true,
+    "storefrontapi.generated.d.ts": true,
+    "typographic-base.d.ts": true
+  },
+  "search.exclude": {
+    "*.lock": true,
+    "package-lock.json": true,
+    "public": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "[typescript][typescriptreact][css][json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.biome": "always",
+      "quickfix.biome": "explicit"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "node_modules/@biomejs/biome/configuration_schema.json",
+  "formatter": {
+    "indentStyle": "space"
+  },
+  "linter": {
+    "rules": {
+      "recommended": true,
+      "correctness": {
+        "noUnusedImports": "off"
+      },
+      "nursery": {
+        "useSortedClasses": "warn"
+      },
+      "style": {
+        "useImportType": "off"
+      }
+    },
+    "ignore": ["components/ui", "components/shopify", "*.generated.d.ts"]
+  },
+  "javascript": {
+    "formatter": {
+      "semicolons": "asNeeded"
+    }
+  },
+  "files": {
+    "ignore": [".cache", ".shopify", "dist"]
+  }
+}
